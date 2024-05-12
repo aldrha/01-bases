@@ -1,0 +1,15 @@
+<h1>Dragon Ball Z</h1>
+<hr />
+
+<div class="row">
+    <div class="col">
+        <app-personajes></app-personajes>
+    </div>
+    <div class="col">
+        <app-agregar 
+        [nuevo]="nuevo">
+        <!-- (onNuevoPersonaje)="agregarNuevoPersonaje( $event ) los ouputs sirven para comunicarse entre un componente padre y un componente hijo y se usan como se usa un metodo dentro de () -->
+    </app-agregar>
+
+    </div>
+</div>
